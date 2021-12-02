@@ -1,13 +1,13 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/Layout'
-import Top from '../components/Top'
+import Header from '../components/Header'
 
 const IndexPage = () => {
   return (
     <main>
       <Layout pageTitle="lek. med Agnieszka Studniarek">
-        <Top></Top>
+        <Header></Header>
       </Layout>
     </main>
   )
