@@ -4,8 +4,9 @@ import styled from 'styled-components'
 import AboutHeader from './AboutHeader'
 import AboutSection from './AboutSection'
 import AboutSectionHeader from './AboutSectionHeader'
-import Icon from './Icon'
 import AboutSectionContent from './AboutSectionContent'
+
+import Icon from '../common/Icon'
 
 import specs_icon from '../images/specs_icon.png'
 import edu_icon from '../images/edu_icon.png'

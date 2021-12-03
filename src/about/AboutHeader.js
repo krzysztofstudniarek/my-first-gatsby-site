@@ -2,7 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components'
 
 import SectionHeader from './SectionHeader'
-import TextContent from './TextContent'
+import TextContent from '../common/TextContent'
 
 const AboutHeaderContainer = styled.div`
     flex: 1;
