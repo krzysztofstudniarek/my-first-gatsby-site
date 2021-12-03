@@ -8,10 +8,12 @@ const Button = styled.button`
     border-radius: 5px;
     background-color: #DB3069;
     border: none;
-    
     color: white;
-    font-size: 20px;
-    font-weight: 100;
+
+    &:hover {
+        color: #DB3069;
+        background-color: white
+    }
 `
 const ButtonContainer = styled.div`
     position: absolute;
@@ -20,12 +22,23 @@ const ButtonContainer = styled.div`
     width: 190px;
     height: 65px;
 `
+const ButtonLink = styled.a`
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: inherit;
+`
 
 const CTAButton = () => {
     return (
         <ButtonContainer>
             <Button>
-                Umów Wizytę
+                <ButtonLink 
+                    href="https://www.znanylekarz.pl/agnieszka-studniarek/dermatolog-lekarz-w-trakcie-specjalizacji/wroclaw?utm_source=widget&utm_medium=link" 
+                    rel="nofollow" 
+                    target="_blank">
+                        Umów wizytę
+                </ButtonLink>
             </Button>
         </ButtonContainer>
     )
