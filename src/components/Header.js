@@ -6,14 +6,12 @@ import img from '../images/top.jpg'
 import HeadercContent from './HeaderContent'
 
 const Background = styled.div`
-    text-align:center;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 676px;
     background-image: url(${img});
+    background-size: 100%;
 `
 
 const Header = () => {

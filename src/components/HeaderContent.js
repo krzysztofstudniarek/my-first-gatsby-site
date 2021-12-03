@@ -6,10 +6,13 @@ import CTAButton from './CTAButton'
 import HeaderReview from './HeaderReview'
 
 const HeadercContentContainer = styled.div`
-    position: relative;
+    flex: 1;
+    position:relative;
     width: 1040px; 
     margin:auto;
     height: 676px;
+    margin-left: 200px;
+    margin-right: 200px;
 `
 
 const HeaderContent = () => {

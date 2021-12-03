@@ -27,7 +27,7 @@ const ReviewsStars = styled.div`
 
 const ReviewText = styled.div`
     padding-top: 15px;
-
+    text-align: center;
     font-size: 22px;
     font-style: italic;
     font-weight: 100;
