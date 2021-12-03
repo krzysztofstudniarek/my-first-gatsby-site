@@ -5,7 +5,7 @@ import Logo from './Logo'
 import CTAButton from './CTAButton'
 import HeaderReview from './HeaderReview'
 
-const HeadercContentContainer = styled.div`
+const HeaderContentContainer = styled.div`
     flex: 1;
     position:relative;
     width: 1040px; 
@@ -17,11 +17,11 @@ const HeadercContentContainer = styled.div`
 
 const HeaderContent = () => {
     return(
-        <HeadercContentContainer>
+        <HeaderContentContainer>
             <Logo></Logo>
             <CTAButton></CTAButton>
             <HeaderReview></HeaderReview>
-        </HeadercContentContainer>
+        </HeaderContentContainer>
     )
 }
 

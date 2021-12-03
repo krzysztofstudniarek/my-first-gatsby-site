@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import img from '../images/top.jpg'
 
-import HeadercContent from './HeaderContent'
+import HeaderContent from './HeaderContent'
 
 const Background = styled.div`
     display: flex;
@@ -17,7 +17,7 @@ const Background = styled.div`
 const Header = () => {
     return(
         <Background>
-            <HeadercContent></HeadercContent>
+            <HeaderContent></HeaderContent>
         </Background>
     )
 }
