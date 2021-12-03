@@ -8,6 +8,10 @@ const Button = styled.button`
     border-radius: 5px;
     background-color: #DB3069;
     border: none;
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
 `
 const ButtonContainer = styled.div`
     position: absolute;
@@ -15,10 +19,6 @@ const ButtonContainer = styled.div`
     top:0px;
     width: 190px;
     height: 65px;
-    
-    font-size: 20px;
-    font-weight: 100;
-    color: white;
 `
 
 const CTAButton = () => {
