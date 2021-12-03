@@ -16,7 +16,6 @@ import lang_icon from '../images/lang_icon.png'
 const AboutContainer = styled.div`
     display: flex;
     width: 100%;
-    height:100px;
 `
 
 const AboutContent = styled.div`
