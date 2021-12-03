@@ -8,6 +8,11 @@ const Button = styled.button`
     border-radius: 5px;
     background-color: #DB3069;
     border: none;
+
+    font-size: 20px;
+    font-weight: 100;
+
+    color: white;
 `
 const ButtonContainer = styled.div`
     position: absolute;
