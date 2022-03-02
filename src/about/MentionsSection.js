@@ -14,8 +14,7 @@ const MentionsSection = (props) => {
     const [Mentions, setMentions] = useState([]);
 
     useEffect(() => {
-        //fetch("http://ec2-18-223-120-80.us-east-2.compute.amazonaws.com/data/".concat(props.sid),
-        fetch("http://localhost/data/".concat(props.sid),
+        fetch("http://ec2-18-223-120-80.us-east-2.compute.amazonaws.com/data/".concat(props.sid),
         {
             headers: {
                 'Accept': 'application/json',
