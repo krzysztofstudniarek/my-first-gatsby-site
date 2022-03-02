@@ -10,7 +10,7 @@ const Logo = styled.div`
     background-size: 100%;
     left: 0px;
     top:0px;
-    width: 280px;
-    height: 66px; 
+    width: 200px;
+    height: 200px; 
 `
 export default Logo;

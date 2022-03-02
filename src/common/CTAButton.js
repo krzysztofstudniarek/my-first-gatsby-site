@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const Button = styled.button`
     width: 190px;
-    height: 45px;
-    margin-top: 10px;
+    height: 50px;
+    margin-top: 75px;
     border-radius: 5px;
     background-color: #DB3069;
     border: none;
@@ -34,10 +34,10 @@ const CTAButton = () => {
         <ButtonContainer>
             <Button>
                 <ButtonLink 
-                    href="https://www.znanylekarz.pl/agnieszka-studniarek/dermatolog-lekarz-w-trakcie-specjalizacji/wroclaw?utm_source=widget&utm_medium=link" 
+                    href="#" 
                     rel="nofollow" 
                     target="_blank">
-                        Umów wizytę
+                        Zgłoś Trola!        
                 </ButtonLink>
             </Button>
         </ButtonContainer>

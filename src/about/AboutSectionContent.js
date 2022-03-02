@@ -3,10 +3,12 @@ import styled from 'styled-components'
 
 const AboutSectionUl = styled.ul`
     clear: both;
-    font-size: 22px;
+    font-size: 12px;
     font-weight: 100;
     line-height: 1.5;
     opacity: 50%;
+    float: left;
+    padding-left: 0px;
 `
 
 const AboutSectionContent = ({children}) => {

@@ -17,7 +17,7 @@ const IndexPage = () => {
   return (
     <main>
       <GlobalStyle />
-      <Layout pageTitle="lek. med Agnieszka Studniarek">
+      <Layout pageTitle="Demaskujemy Dezinformację">
         <Header></Header>
         <About></About>
       </Layout>
