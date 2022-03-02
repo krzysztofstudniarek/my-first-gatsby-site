@@ -2,7 +2,6 @@ import * as React from 'react'
 import styled from 'styled-components'
 
 import Logo from './Logo'
-import CTAButton from '../common/CTAButton'
 
 const HeaderContentContainer = styled.div`
     flex: 1;
@@ -18,7 +17,6 @@ const HeaderContent = () => {
     return(
         <HeaderContentContainer>
             <Logo></Logo>
-            <CTAButton></CTAButton>
         </HeaderContentContainer>
     )
 }
