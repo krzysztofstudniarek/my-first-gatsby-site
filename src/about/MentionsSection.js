@@ -30,6 +30,10 @@ const MentionsSection = (props) => {
                         setMentions(data);
                     }
                 )
+                .catch(error => {
+                    alert("Mieliśmy problem z pobraniem danych skontaktuj się z administratorem!");
+                    throw(error);
+                })
             })
     }, [])
 
