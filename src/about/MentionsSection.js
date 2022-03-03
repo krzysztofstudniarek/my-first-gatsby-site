@@ -15,11 +15,9 @@ const MentionsSection = (props) => {
     const [mentions, setMentions] = useState(null);
 
     useEffect(() => {
-        fetch("http://ec2-18-223-120-80.us-east-2.compute.amazonaws.com/data/".concat(props.sid),
-        //fetch("http://localhost/data/".concat(props.sid),
+        fetch("https://nqe733v84d.execute-api.us-east-2.amazonaws.com/default/debunkDesinformationFunction?sid=".concat(props.sid),
         {
             headers: {
-                'Accept': 'application/json',
                 'Content-Type': 'application/json'
             }
         })

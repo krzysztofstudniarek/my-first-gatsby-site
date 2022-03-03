@@ -54,7 +54,7 @@ const Mention = (props) => {
                             href={props.url} 
                             rel="nofollow" 
                             target="_blank">
-                                {props.url}
+                                {props.url.slice(0,50)}
                         </MentionLink>
                     </MentionUrlLi>
                     <ContentLi>
